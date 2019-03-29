@@ -21,7 +21,7 @@
         shapeLayer.borderColor = [UIColor whiteColor].CGColor;
         shapeLayer.cornerRadius = width/2;
         shapeLayer.borderWidth = 1;
-        shapeLayer.transform = CATransform3DMakeScale(.0, .0, .0);
+        shapeLayer.transform = CATransform3DMakeScale(.1, .1, .1);
 
 
         CABasicAnimation *ani = [CABasicAnimation animationWithKeyPath:@"transform"];
@@ -34,7 +34,7 @@
         CAReplicatorLayer *repLayer = [CAReplicatorLayer layer];
         repLayer.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
 
-        CGFloat count = 8;
+        CGFloat count = 15;
         [repLayer addSublayer:shapeLayer];
         repLayer.instanceCount = count;
         repLayer.instanceDelay = 1.0/count;

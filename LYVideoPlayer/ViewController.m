@@ -10,8 +10,11 @@
 #import "LYPlayer.h"
 #import "UIView+ReSize.h"
 #import "UserData.h"
+#import "LYReplicatorLayer.h"
 @interface ViewController ()
 @property (nonatomic,strong)LYPlayer * player;
+@property (nonatomic,strong)LYReplicatorLayer * replicatorLayer;
+
 @end
 
 @implementation ViewController
@@ -25,6 +28,8 @@
     url = @"http://cdn.xnwimg.com/down/f:%7BC362B48F-2AA8-6BFC-7FCA-92B14BC1CE83%7D/test2.mp4";
     [self.player setVideoURL:url];
     
+    [self.view addSubview:self.replicatorLayer];
+    
 }
 - (void)viewDidLayoutSubviews{
     [super viewDidLayoutSubviews];
@@ -33,6 +38,12 @@
     } else {
         // Fallback on earlier versions
     }
+    self.replicatorLayer.frame = CGRectMake((self.view.width-50)/2, self.player.bottom+20, 50, 50);
 }
-
+- (LYReplicatorLayer *)replicatorLayer{
+    if (!_replicatorLayer) {
+        _replicatorLayer =[[LYReplicatorLayer alloc]initWithFrame:CGRectMake(0, self.player.bottom+20, 50, 50)];
+    }
+    return _replicatorLayer;
+}
 @end

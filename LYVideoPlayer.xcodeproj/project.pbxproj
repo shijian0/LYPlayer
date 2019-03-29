@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		583C38B7223B63A9002844E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583C38B6223B63A9002844E9 /* CoreGraphics.framework */; };
+		584AEC63224DDC070039AFAD /* LYReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 584AEC62224DDC070039AFAD /* LYReplicatorLayer.m */; };
 		586F4850224C9FE7000E8F1B /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F484F224C9FE7000E8F1B /* NSTimer+WeakTimer.m */; };
 		586F4856224CB225000E8F1B /* LYCirclePointActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F4855224CB225000E8F1B /* LYCirclePointActivityIndicator.m */; };
 		588FCAB9221A4F6900F8F087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FCAB8221A4F6900F8F087 /* AppDelegate.m */; };
@@ -52,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		583C38B6223B63A9002844E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		584AEC61224DDC070039AFAD /* LYReplicatorLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYReplicatorLayer.h; sourceTree = "<group>"; };
+		584AEC62224DDC070039AFAD /* LYReplicatorLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYReplicatorLayer.m; sourceTree = "<group>"; };
 		586F484E224C9FE7000E8F1B /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
 		586F484F224C9FE7000E8F1B /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
 		586F4854224CB225000E8F1B /* LYCirclePointActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCirclePointActivityIndicator.h; sourceTree = "<group>"; };
@@ -188,6 +191,8 @@
 				588FCAF2221A865500F8F087 /* UIView+ReSize.m */,
 				586F4854224CB225000E8F1B /* LYCirclePointActivityIndicator.h */,
 				586F4855224CB225000E8F1B /* LYCirclePointActivityIndicator.m */,
+				584AEC61224DDC070039AFAD /* LYReplicatorLayer.h */,
+				584AEC62224DDC070039AFAD /* LYReplicatorLayer.m */,
 				588FCABD221A4F6900F8F087 /* Main.storyboard */,
 				588FCAC0221A4F6A00F8F087 /* Assets.xcassets */,
 				588FCAC2221A4F6A00F8F087 /* LaunchScreen.storyboard */,
@@ -360,6 +365,7 @@
 				58946A81221FE8B40025DA81 /* LYLoaderURLConnection.m in Sources */,
 				58B202E6223A27AC0025EBE5 /* NSDictionary+ConvertValue.m in Sources */,
 				586F4856224CB225000E8F1B /* LYCirclePointActivityIndicator.m in Sources */,
+				584AEC63224DDC070039AFAD /* LYReplicatorLayer.m in Sources */,
 				588FCAB9221A4F6900F8F087 /* AppDelegate.m in Sources */,
 				58B202DD223A230E0025EBE5 /* NSString+URL.m in Sources */,
 				58B202E3223A25670025EBE5 /* FileManager.m in Sources */,
