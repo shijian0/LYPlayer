@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		583C38B7223B63A9002844E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583C38B6223B63A9002844E9 /* CoreGraphics.framework */; };
+		586F4850224C9FE7000E8F1B /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F484F224C9FE7000E8F1B /* NSTimer+WeakTimer.m */; };
+		586F4856224CB225000E8F1B /* LYCirclePointActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 586F4855224CB225000E8F1B /* LYCirclePointActivityIndicator.m */; };
 		588FCAB9221A4F6900F8F087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FCAB8221A4F6900F8F087 /* AppDelegate.m */; };
 		588FCABC221A4F6900F8F087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FCABB221A4F6900F8F087 /* ViewController.m */; };
 		588FCABF221A4F6900F8F087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588FCABD221A4F6900F8F087 /* Main.storyboard */; };
@@ -15,6 +18,19 @@
 		588FCAC7221A4F6A00F8F087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FCAC6221A4F6A00F8F087 /* main.m */; };
 		588FCAD1221A4F6A00F8F087 /* LYVideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FCAD0221A4F6A00F8F087 /* LYVideoPlayerTests.m */; };
 		588FCADC221A4F6A00F8F087 /* LYVideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FCADB221A4F6A00F8F087 /* LYVideoPlayerUITests.m */; };
+		588FCAEE221A5D2000F8F087 /* LYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FCAED221A5D2000F8F087 /* LYPlayer.m */; };
+		588FCAF1221A5D5200F8F087 /* LYPlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FCAF0221A5D5200F8F087 /* LYPlayerMaskView.m */; };
+		588FCAF4221A865500F8F087 /* UIView+ReSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FCAF2221A865500F8F087 /* UIView+ReSize.m */; };
+		58946A7B221F85640025DA81 /* LYVideoRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 58946A7A221F85640025DA81 /* LYVideoRequestTask.m */; };
+		58946A7E221FDA470025DA81 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 58946A7D221FDA470025DA81 /* UserData.m */; };
+		58946A81221FE8B40025DA81 /* LYLoaderURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 58946A80221FE8B40025DA81 /* LYLoaderURLConnection.m */; };
+		58B202DA223A21580025EBE5 /* LYSegmentCacheVideoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B202D9223A21580025EBE5 /* LYSegmentCacheVideoFile.m */; };
+		58B202DD223A230E0025EBE5 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B202DC223A230E0025EBE5 /* NSString+URL.m */; };
+		58B202E0223A23980025EBE5 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B202DF223A23980025EBE5 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58B202E3223A25670025EBE5 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B202E2223A25660025EBE5 /* FileManager.m */; };
+		58B202E6223A27AC0025EBE5 /* NSDictionary+ConvertValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B202E5223A27AC0025EBE5 /* NSDictionary+ConvertValue.m */; };
+		58D4A7DC22321A500003C694 /* slider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D4A7DA22321A500003C694 /* slider@3x.png */; };
+		58D4A7DD22321A500003C694 /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D4A7DB22321A500003C694 /* slider@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		583C38B6223B63A9002844E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		586F484E224C9FE7000E8F1B /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
+		586F484F224C9FE7000E8F1B /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
+		586F4854224CB225000E8F1B /* LYCirclePointActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCirclePointActivityIndicator.h; sourceTree = "<group>"; };
+		586F4855224CB225000E8F1B /* LYCirclePointActivityIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCirclePointActivityIndicator.m; sourceTree = "<group>"; };
 		588FCAB4221A4F6900F8F087 /* LYVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		588FCAB7221A4F6900F8F087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		588FCAB8221A4F6900F8F087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +72,30 @@
 		588FCAD7221A4F6A00F8F087 /* LYVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		588FCADB221A4F6A00F8F087 /* LYVideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYVideoPlayerUITests.m; sourceTree = "<group>"; };
 		588FCADD221A4F6A00F8F087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588FCAEC221A5D2000F8F087 /* LYPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPlayer.h; sourceTree = "<group>"; };
+		588FCAED221A5D2000F8F087 /* LYPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPlayer.m; sourceTree = "<group>"; };
+		588FCAEF221A5D5200F8F087 /* LYPlayerMaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPlayerMaskView.h; sourceTree = "<group>"; };
+		588FCAF0221A5D5200F8F087 /* LYPlayerMaskView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPlayerMaskView.m; sourceTree = "<group>"; };
+		588FCAF2221A865500F8F087 /* UIView+ReSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ReSize.m"; sourceTree = "<group>"; };
+		588FCAF3221A865500F8F087 /* UIView+ReSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ReSize.h"; sourceTree = "<group>"; };
+		58946A79221F85640025DA81 /* LYVideoRequestTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYVideoRequestTask.h; sourceTree = "<group>"; };
+		58946A7A221F85640025DA81 /* LYVideoRequestTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYVideoRequestTask.m; sourceTree = "<group>"; };
+		58946A7C221FDA470025DA81 /* UserData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		58946A7D221FDA470025DA81 /* UserData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		58946A7F221FE8B40025DA81 /* LYLoaderURLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLoaderURLConnection.h; sourceTree = "<group>"; };
+		58946A80221FE8B40025DA81 /* LYLoaderURLConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLoaderURLConnection.m; sourceTree = "<group>"; };
+		58B202D8223A21580025EBE5 /* LYSegmentCacheVideoFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSegmentCacheVideoFile.h; sourceTree = "<group>"; };
+		58B202D9223A21580025EBE5 /* LYSegmentCacheVideoFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSegmentCacheVideoFile.m; sourceTree = "<group>"; };
+		58B202DB223A230E0025EBE5 /* NSString+URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		58B202DC223A230E0025EBE5 /* NSString+URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
+		58B202DE223A23970025EBE5 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		58B202DF223A23980025EBE5 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		58B202E1223A25660025EBE5 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		58B202E2223A25660025EBE5 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		58B202E4223A27AC0025EBE5 /* NSDictionary+ConvertValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ConvertValue.h"; sourceTree = "<group>"; };
+		58B202E5223A27AC0025EBE5 /* NSDictionary+ConvertValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ConvertValue.m"; sourceTree = "<group>"; };
+		58D4A7DA22321A500003C694 /* slider@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider@3x.png"; sourceTree = "<group>"; };
+		58D4A7DB22321A500003C694 /* slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583C38B7223B63A9002844E9 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +124,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		583C38B5223B63A9002844E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				583C38B6223B63A9002844E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		588FCAAB221A4F6900F8F087 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +139,7 @@
 				588FCACF221A4F6A00F8F087 /* LYVideoPlayerTests */,
 				588FCADA221A4F6A00F8F087 /* LYVideoPlayerUITests */,
 				588FCAB5221A4F6900F8F087 /* Products */,
+				583C38B5223B63A9002844E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +160,34 @@
 				588FCAB8221A4F6900F8F087 /* AppDelegate.m */,
 				588FCABA221A4F6900F8F087 /* ViewController.h */,
 				588FCABB221A4F6900F8F087 /* ViewController.m */,
+				58D4A7DB22321A500003C694 /* slider@2x.png */,
+				58D4A7DA22321A500003C694 /* slider@3x.png */,
+				58946A7C221FDA470025DA81 /* UserData.h */,
+				58946A7D221FDA470025DA81 /* UserData.m */,
+				58B202DB223A230E0025EBE5 /* NSString+URL.h */,
+				58B202DC223A230E0025EBE5 /* NSString+URL.m */,
+				58946A7F221FE8B40025DA81 /* LYLoaderURLConnection.h */,
+				58946A80221FE8B40025DA81 /* LYLoaderURLConnection.m */,
+				58946A79221F85640025DA81 /* LYVideoRequestTask.h */,
+				58946A7A221F85640025DA81 /* LYVideoRequestTask.m */,
+				58B202D8223A21580025EBE5 /* LYSegmentCacheVideoFile.h */,
+				58B202D9223A21580025EBE5 /* LYSegmentCacheVideoFile.m */,
+				58B202E4223A27AC0025EBE5 /* NSDictionary+ConvertValue.h */,
+				58B202E5223A27AC0025EBE5 /* NSDictionary+ConvertValue.m */,
+				58B202E1223A25660025EBE5 /* FileManager.h */,
+				58B202E2223A25660025EBE5 /* FileManager.m */,
+				58B202DE223A23970025EBE5 /* JSONKit.h */,
+				58B202DF223A23980025EBE5 /* JSONKit.m */,
+				588FCAEC221A5D2000F8F087 /* LYPlayer.h */,
+				588FCAED221A5D2000F8F087 /* LYPlayer.m */,
+				588FCAEF221A5D5200F8F087 /* LYPlayerMaskView.h */,
+				588FCAF0221A5D5200F8F087 /* LYPlayerMaskView.m */,
+				586F484E224C9FE7000E8F1B /* NSTimer+WeakTimer.h */,
+				586F484F224C9FE7000E8F1B /* NSTimer+WeakTimer.m */,
+				588FCAF3221A865500F8F087 /* UIView+ReSize.h */,
+				588FCAF2221A865500F8F087 /* UIView+ReSize.m */,
+				586F4854224CB225000E8F1B /* LYCirclePointActivityIndicator.h */,
+				586F4855224CB225000E8F1B /* LYCirclePointActivityIndicator.m */,
 				588FCABD221A4F6900F8F087 /* Main.storyboard */,
 				588FCAC0221A4F6A00F8F087 /* Assets.xcassets */,
 				588FCAC2221A4F6A00F8F087 /* LaunchScreen.storyboard */,
@@ -237,6 +320,8 @@
 			files = (
 				588FCAC4221A4F6A00F8F087 /* LaunchScreen.storyboard in Resources */,
 				588FCAC1221A4F6A00F8F087 /* Assets.xcassets in Resources */,
+				58D4A7DD22321A500003C694 /* slider@2x.png in Resources */,
+				58D4A7DC22321A500003C694 /* slider@3x.png in Resources */,
 				588FCABF221A4F6900F8F087 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +347,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588FCAF4221A865500F8F087 /* UIView+ReSize.m in Sources */,
+				588FCAF1221A5D5200F8F087 /* LYPlayerMaskView.m in Sources */,
+				58B202E0223A23980025EBE5 /* JSONKit.m in Sources */,
+				586F4850224C9FE7000E8F1B /* NSTimer+WeakTimer.m in Sources */,
 				588FCABC221A4F6900F8F087 /* ViewController.m in Sources */,
+				58946A7B221F85640025DA81 /* LYVideoRequestTask.m in Sources */,
 				588FCAC7221A4F6A00F8F087 /* main.m in Sources */,
+				58B202DA223A21580025EBE5 /* LYSegmentCacheVideoFile.m in Sources */,
+				588FCAEE221A5D2000F8F087 /* LYPlayer.m in Sources */,
+				58946A7E221FDA470025DA81 /* UserData.m in Sources */,
+				58946A81221FE8B40025DA81 /* LYLoaderURLConnection.m in Sources */,
+				58B202E6223A27AC0025EBE5 /* NSDictionary+ConvertValue.m in Sources */,
+				586F4856224CB225000E8F1B /* LYCirclePointActivityIndicator.m in Sources */,
 				588FCAB9221A4F6900F8F087 /* AppDelegate.m in Sources */,
+				58B202DD223A230E0025EBE5 /* NSString+URL.m in Sources */,
+				58B202E3223A25670025EBE5 /* FileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JG7V8RC934;
+				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = LYVideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +553,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JG7V8RC934;
+				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_FILE = LYVideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
