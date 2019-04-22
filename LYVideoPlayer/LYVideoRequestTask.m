@@ -41,8 +41,9 @@
         [request addValue:[NSString stringWithFormat:@"bytes=%ld-",(unsigned long)self.offset] forHTTPHeaderField:@"Range"];
 //        NSLog(@"more%.2lu~%.2lu",(unsigned long)self.offset,self.videoLength-1);
     }
-//    NSLog(@"task request:%@----%lu",request,len);
-
+    [self connectionTask:request];
+}
+- (void)connectionTask:(NSMutableURLRequest *)request{
     self.connection = [[NSURLConnection alloc] initWithRequest:request delegate:self startImmediately:NO];
     [self.connection setDelegateQueue:[NSOperationQueue mainQueue]];
     [self.connection start];
@@ -57,13 +58,8 @@
 }
 - (void)clearData{
     [self cancel];
-//    [UserData removeFileWithPath:self.tempPath];
 }
-//- (void)reTryOnce{
-//    self.reTry = YES;
-//    [self cancel];
-//    [self connectionStart];
-//}
+
 #pragma -mark NSURLConnection Delegate
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response{
     NSLog(@"connection once");
@@ -99,9 +95,7 @@
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error{
     [self cancel];
     if (error.code == -1001 && !self.reTry) {
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 1.0*NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-           // [self reTryOnce];
-        });
+        
     }else if (error.code == -1009){
         NSLog(@"无网络链接");
     }
@@ -111,16 +105,7 @@
 }
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection{
     [self cancel];
-//    NSString *path = [[UserData getDocumentsPath] stringByAppendingPathComponent:@"video.mp4"];
-//    BOOL isSuccess = [[NSFileManager defaultManager] copyItemAtPath:_tempPath toPath:path error:nil];
-//    if (isSuccess) {
-//        NSLog(@"保存成功");
-//    }else{
-//        NSLog(@"保存失败");
-//    }
-//    NSLog(@"newPath:%@",_tempPath);
     NSLog(@"保存成功");
-
     if ([self.delegate respondsToSelector:@selector(LYVideoRequestTaskDelegateDidFinish:)]) {
         [self.delegate LYVideoRequestTaskDelegateDidFinish:self];
     }

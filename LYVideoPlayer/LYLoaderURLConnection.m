@@ -77,11 +77,14 @@
             NSUInteger now = time(0);
             NSUInteger fabsSep = fabs(now - self.task.loadTime);
             if (fabsSep > 1) {
+                NSLog(@"创建新任务");
                 self.task.loadTime = now;
                 [self.task setUrl:self.videoFile.URL withOffset:range.location len:self.videoFile.length];
                 NSLog(@"dao shi jian");
             }
-            NSLog(@"拖动数据：now time:%lu**%lu**%lu ---range:%.2lu,%.2lu",(unsigned long)now,(unsigned long)self.task.loadTime,now-self.task.loadTime, (unsigned long)self.task.offset,(unsigned long)self.task.downLoadingOffset);
+            NSLog(@"来了。。。");
+
+//            NSLog(@"拖动数据：now time:%lu**%lu**%lu ---range:%.2lu,%.2lu",(unsigned long)now,(unsigned long)self.task.loadTime,now-self.task.loadTime, (unsigned long)self.task.offset,(unsigned long)self.task.downLoadingOffset);
 //            }else{
 //                NSLog(@"range2:%.2lu,%.2lu",(unsigned long)self.task.offset,(unsigned long)self.task.downLoadingOffset);
 //            }
